@@ -4,7 +4,7 @@
     <parameter name="browser" value="chrome"/>
     <test name="Navigate to Unix Page">
         <classes>
-            <class name="org.example.NavigateToUnixPageTest"/>
+            <class name="org.example.test.NavigateToUnixPageTest"/>
         </classes>
     </test>
 </suite>

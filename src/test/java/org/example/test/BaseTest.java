@@ -9,7 +9,6 @@ import java.io.IOException;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.example.pages.common.Props.*;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 
@@ -17,10 +16,6 @@ public class BaseTest {
     public void setUp() throws IOException {
         initProperties();
         DriverManager.setUp();
-
-
-
-
     }
 
     @BeforeTest

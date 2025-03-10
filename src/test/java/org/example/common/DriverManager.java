@@ -3,7 +3,7 @@ package org.example.common;
 import com.codeborne.selenide.Configuration;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeOptions;
-import static org.example.pages.common.Props.pathToWebDriver;
+
 public class DriverManager {
     public static String pathToWebDriver;
 

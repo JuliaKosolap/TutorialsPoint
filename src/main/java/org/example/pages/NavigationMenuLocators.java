@@ -1,9 +1,6 @@
 package org.example.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
-
-import static com.codeborne.selenide.Selectors.byLinkText;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static org.openqa.selenium.By.linkText;

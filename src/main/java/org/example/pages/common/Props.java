@@ -17,9 +17,6 @@ public class Props {
             //load properties file and read the data from it
             prop.load(fileInputStream);
             siteUrl = prop.getProperty("siteUrl");
-            pathToWebDriver = prop.getProperty("pathToWebDriver");
-            // Debug print to verify if pathToWebDriver is loaded correctly
-            System.out.println("Loaded pathToWebDriver: " + pathToWebDriver);
         }
     }
 

@@ -7,7 +7,6 @@ public class Props {
     //path to the config file
     public static final String PATH_TO_PROPERTIES = "src/main/resources/config.properties";
     public static String siteUrl = "";
-    public static String pathToWebDriver = "";
 
     public static void initProperties() throws IOException {
         //initializing Properties object

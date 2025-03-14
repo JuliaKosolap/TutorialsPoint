@@ -14,8 +14,6 @@ public class NavigateToUnixPageTest {
         HomePage homePage = new HomePage();
         homePage.closeCookiesDialog();
         NavigationMenu navMenu = new NavigationMenu();
-        navMenu.expandCategoriesMenuItem();
-        navMenu.expandDevOpsMenuItem();
         navMenu.goToUnixPage();
         Assert.assertEquals(Selenide.$("h1").getText(), "Linux/Unix Tutorial");
     }

@@ -9,7 +9,6 @@ public class Props {
     public static String siteUrl = "";
 
     public static void initProperties() throws IOException {
-        //initializing Properties object
         Properties prop = new Properties();
 
         try (FileInputStream fileInputStream = new FileInputStream(PATH_TO_PROPERTIES)) {

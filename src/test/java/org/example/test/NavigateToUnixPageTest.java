@@ -4,8 +4,7 @@ import org.example.pages.HomePage;
 import org.example.pages.NavigationMenu;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import static com.codeborne.selenide.Selenide.open;
-import static org.example.pages.common.Props.siteUrl;
+
 
 public class NavigateToUnixPageTest {
 
